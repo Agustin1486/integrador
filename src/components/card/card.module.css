@@ -1,0 +1,32 @@
+.container{
+display: flex;
+flex-direction: column;
+width: 230px;
+height: 270px;
+/* border: solid 2px black; */
+border-radius: 20px;
+box-shadow: 0 0 20px rgba(0,255,255,0.6);
+
+}
+
+.container:hover{
+    transform: scale (1.1);
+
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button{
+    border-radius: 50px;
+    margin: 10px 10px 0 0;
+    border: none;
+
+}
+
+.button:hover{
+    background-color: gold;
+    color: blue;
+}
