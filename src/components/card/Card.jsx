@@ -7,10 +7,16 @@ export default function Card({ onClose, name, species, gender, image}) {
      <div className={styles.container}>
       <div className={styles.buttonContainer}><button onClick={onClose}className={styles.button}>X</button></div>
        
-       <h2>Name: {name}</h2>
-       <h2>Species: {species}</h2>
-       <h2>Gender: {gender}</h2>
-       <img src={image} alt="" />
+       <div className={styles.imgContainer}><img src={image} alt="Not found" />
+       <h2 className= {styles.name}>{name}</h2>
+       </div>
+
+      <div className={styles.propsContainer}>
+      <h2>{species}</h2>
+      <h2>{gender}</h2>
+       </div>
+       
+       
      </div>
    );
  }

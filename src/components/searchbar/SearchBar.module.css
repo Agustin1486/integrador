@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    justify-content: center;
+
+
+}
+
+input {
+
+background-color: rgb(235, 227, 186);
+border-radius: 10px 0 0 10px;
+border-color: rgb(143, 178, 72);
+}
+
+button {
+    border-radius: 0 10px 10px 0;
+    border-color: rgb(18, 18, 17);
+    color: greenyellow;
+    background-color: rgb(151, 151, 146);
+}
+
+button:hover{
+    color: rgb(151, 151, 146);
+    background-color:greenyellow ;
+    cursor: pointer;
+}

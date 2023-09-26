@@ -9,10 +9,8 @@ function App() {
       <div className='App'>
          <SearchBar onSearch={(characterID) => window.alert(characterID)} />
 
+         
          <div>
-
-         <Cards characters={characters} />
-         </div>
          <Card
             name={Rick.name}
             species={Rick.species}
@@ -20,6 +18,12 @@ function App() {
             image={Rick.image}
             onClose={() => window.alert('Emulamos que se cierra la card')}
          />
+         </div>
+
+         <div>
+
+         <Cards characters={characters} />
+         </div>
       </div>
    );
 }
